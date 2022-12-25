@@ -1,0 +1,56 @@
+.container-skills {
+  padding-top: 91px;
+  padding-bottom: 110.06px;
+}
+
+.skills__title {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  padding-bottom: 69.1px;
+}
+
+.skills__subtitle {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  padding-bottom: 83.49px;
+}
+
+.skills__soft {
+  display: flex;
+  justify-content: space-between;
+}
+
+.soft__card {
+  width: 166.46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__img {
+  margin: 0 auto 23.03px auto;
+}
+
+.card__text {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 41.41px;
+}
+
+.card__text:last-child {
+  margin-bottom: 56.96px;
+}
+
+.card__star {
+  display: flex;
+  justify-content: space-between;
+}

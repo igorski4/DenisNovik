@@ -1,0 +1,42 @@
+.portfolio {
+  background-color: #f6f6f6;
+}
+
+.container-portfolio {
+  padding-top: 112.93px;
+  padding-bottom: 96.07px;
+}
+
+.portfolio__title {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 47px;
+}
+
+.portfolio__example {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.example__img {
+  margin-bottom: 42.83px;
+}
+
+.example__text {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+  margin-bottom: 99.08px;
+}
+
+.example__text_last {
+  margin-bottom: 0;
+}

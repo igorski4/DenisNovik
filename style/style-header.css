@@ -1,0 +1,34 @@
+.container-header {
+  padding-top: 32.99px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__link {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.3s;
+}
+
+.navbar__link:hover {
+  color: #070707;
+}
+
+.navbar__link:active {
+  transform: scaleX(1.07) scaleY(1.07);
+}
+
+.header-hr {
+  height: 0px;
+  margin: 0;
+  margin-top: 31px;
+  border: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}

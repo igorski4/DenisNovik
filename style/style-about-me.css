@@ -1,0 +1,32 @@
+.about-me {
+  background-color: #f6f6f6;
+}
+
+.container-about-me {
+  padding-top: 120.25px;
+  padding-bottom: 107px;
+}
+
+.about-me__title {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 17.69px;
+}
+
+.about-me__text {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  width: 485.34px;
+  height: 218px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}

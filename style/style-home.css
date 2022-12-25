@@ -1,0 +1,28 @@
+.container-home {
+  padding-top: 40px;
+}
+
+.home__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card__title {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+}
+
+.card__subtitle {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.home__img {
+  padding-top: 40px;
+  padding-bottom: 104.06px;
+}
