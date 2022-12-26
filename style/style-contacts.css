@@ -1,6 +1,7 @@
 .contacts {
-  text-align: center;
   padding-bottom: 20.03px;
+
+  text-align: center;
 }
 
 .container-contacts {
@@ -9,44 +10,43 @@
 }
 
 .contacts__title {
-  font-family: "Gilroy-Bold";
-  font-size: 34px;
-  line-height: 42px;
-  text-align: center;
-  color: #070707;
   padding-bottom: 20.03px;
 }
 
 .contacts__text_size_m {
+  padding-bottom: 29.6px;
+
   font-family: "Gilroy-Medium";
   font-size: 18px;
   line-height: 22px;
   text-align: center;
   color: #070707;
-  padding-bottom: 29.6px;
 }
 
 .contacts__button {
-  background-color: black;
-  color: white;
   display: block;
-  margin: 0 auto;
   width: 180.5px;
   height: 42px;
+  margin: 0 auto;
+  margin-bottom: 85.78px;
+
+  color: white;
   font-family: "Gilroy-Bold";
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+
+  background-color: black;
   border-radius: 21px;
-  margin-bottom: 85.78px;
 }
 
 .contacts__social-network {
-  max-width: 342.19px;
-  width: 342.19px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  width: 342.19px;
+  max-width: 342.19px;
+  margin: 0 auto;
+
   margin-bottom: 45.98px;
 }
 

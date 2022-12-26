@@ -8,26 +8,21 @@
 }
 
 .about-me__title {
-  font-family: "Gilroy-Bold";
-  font-size: 34px;
-  line-height: 42px;
-  text-align: center;
-  color: #070707;
   margin-bottom: 17.69px;
 }
 
 .about-me__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 485.34px;
+  min-width: 316px;
+  height: 218px;
+  margin: 0 auto;
+
   font-family: "Gilroy-Medium";
   font-size: 18px;
   line-height: 22px;
   text-align: center;
   color: #070707;
-  max-width: 485.34px;
-  min-width: 316px;
-  height: 218px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
 }

@@ -4,21 +4,17 @@
 }
 
 .skills__title {
-  font-family: "Gilroy-Bold";
-  font-size: 34px;
-  line-height: 42px;
-  text-align: center;
-  color: #070707;
   padding-bottom: 69.1px;
 }
 
 .skills__subtitle {
+  padding-bottom: 83.49px;
+
   font-family: "Gilroy-Medium";
   font-size: 18px;
   line-height: 22px;
   text-align: center;
   color: #070707;
-  padding-bottom: 83.49px;
 }
 
 .skills__soft {
@@ -27,10 +23,10 @@
 }
 
 .soft__card {
-  width: 166.46px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 166.46px;
 }
 
 .card__img {
@@ -38,12 +34,13 @@
 }
 
 .card__text {
+  margin-bottom: 41.41px;
+
   font-family: "Gilroy-Bold";
   font-size: 14px;
   line-height: 17px;
   text-align: center;
   color: #828282;
-  margin-bottom: 41.41px;
 }
 
 .card__text:last-child {
