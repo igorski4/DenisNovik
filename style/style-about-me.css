@@ -22,7 +22,8 @@
   line-height: 22px;
   text-align: center;
   color: #070707;
-  width: 485.34px;
+  max-width: 485.34px;
+  min-width: 316px;
   height: 218px;
   margin: 0 auto;
   display: flex;
