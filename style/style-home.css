@@ -28,3 +28,21 @@
   padding-top: 40px;
   padding-bottom: 104.06px;
 }
+
+@media (min-width: 375px) and (max-width: 968px) {
+  .container-home {
+    padding-left: 26px;
+    padding-right: 28px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+  .home__card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 23px;
+  }
+  .home__img {
+    padding-bottom: 83px;
+  }
+}

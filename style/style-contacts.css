@@ -43,7 +43,6 @@
 .contacts__social-network {
   display: flex;
   justify-content: space-between;
-  width: 342.19px;
   max-width: 342.19px;
   margin: 0 auto;
 
@@ -56,4 +55,14 @@
   line-height: 17px;
   text-align: center;
   color: #828282;
+}
+
+@media (min-width: 375px) and (max-width: 968px) {
+  .container-contacts {
+    padding: 82px 28px 70px 28px;
+  }
+
+  .contacts__button {
+    margin-bottom: 60px;
+  }
 }

@@ -38,4 +38,25 @@
 
 .example__text_last {
   margin-bottom: 0;
+
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+
+@media (min-width: 375px) and (max-width: 968px) {
+  .container-portfolio {
+    padding: 81px 28px 81px 28px;
+  }
+
+  .example__img {
+    margin-bottom: 33px;
+  }
+
+  .example__text {
+    margin-bottom: 78px;
+  }
 }

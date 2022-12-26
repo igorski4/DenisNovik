@@ -35,3 +35,28 @@
 
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
+@media (min-width: 375px) and (max-width: 968px) {
+  .container-header {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+
+/* @media (min-width: 375px) and (max-width: 500px) {
+  .home__card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 23px;
+  }
+  .card__title {
+    padding-left: 26px;
+  }
+  .card__subtitle {
+    padding-left: 28px;
+  }
+  .home__img {
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+} */
