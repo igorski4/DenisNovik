@@ -45,4 +45,7 @@
   .home__img {
     padding-bottom: 83px;
   }
+  .container-home {
+    padding-top: 10px;
+  }
 }
