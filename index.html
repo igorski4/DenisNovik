@@ -10,33 +10,38 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container container-header">
-        <input class="menu__burger" id="menu__burger" type="checkbox" />
-        <label class="menu__button" for="menu__burger">
-          <span></span>
-        </label>
-        <nav class="navbar">
+        <div class="header__burger burger">
+          <input class="burger__menu" id="burger__menu" type="checkbox" />
+          <label class="burger__button" for="burger__menu">
+            <span></span>
+          </label>
+          <ui class="burger__nav nav">
+            <li><a class="nav__link" href="#home">Home</a></li>
+            <li><a class="nav__link" href="#about-me">About me</a></li>
+            <li><a class="nav__link" href="#skills">Skills</a></li>
+            <li><a class="nav__link" href="#portfolio">Portfolio</a></li>
+            <li><a class="nav__link" href="#contacts">Contacts</a></li>
+          </ui>
+        </div>
+        <nav class="header__navbar navbar">
           <a class="navbar__link" href="#home">Home</a>
           <a class="navbar__link" href="#about-me">About me</a>
           <a class="navbar__link" href="#skills">Skills</a>
           <a class="navbar__link" href="#portfolio">Portfolio</a>
           <a class="navbar__link" href="#contacts">Contacts</a>
         </nav>
-        <hr class="header-hr" />
+        <hr class="header__hr" />
       </div>
     </header>
     <main>
       <section class="home" id="home">
         <div class="container container-home">
           <div class="home__card card">
-            <h1 class="card__title">
-              Denis <br />
-              Novik
-            </h1>
+            <h1 class="card__title">Denis Novik</h1>
             <p class="card__subtitle">
-              UX | UI designer <br />
-              24 years old, Minsk
+              UX | UI designer 24&nbspyears old, Minsk
             </p>
           </div>
           <picture>
@@ -57,15 +62,17 @@
           <h2 class="about-me__title">About me</h2>
           <div class="about-me__text">
             <div>
-              Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in
-              design and everything connected with it.
+              Hi, I'm Denis – UX/UI designer from Minsk.
+              I'm&nbspinterested&nbspin&nbspdesign and everything connected with
+              it.
             </div>
             <div>
-              I'm studying at courses "Web and mobile design interfaces" in
-              IT-Academy.
+              I'm studying at courses "Web&nbspand&nbspmobile design interfaces"
+              in IT-Academy.
             </div>
             <div>
-              Ready to implement excellent projects with wonderful people.
+              Ready to implement excellent projects
+              with&nbspwonderful&nbsppeople.
             </div>
           </div>
         </div>
@@ -81,10 +88,7 @@
                 src="./images/Photoshop.svg"
                 alt="Photoshop icon"
               />
-              <p class="card__text">
-                Adobe <br />
-                Photoshop
-              </p>
+              <p class="card__text">Adobe Photoshop</p>
               <div class="card__star star">
                 <img src="./images/black-star.svg" alt="Black star" />
                 <img src="./images/black-star.svg" alt="Black star" />
@@ -99,10 +103,7 @@
                 src="./images/Illustrator.svg"
                 alt="Illustrator icon"
               />
-              <p class="card__text">
-                Adobe <br />
-                Illustrator
-              </p>
+              <p class="card__text">Adobe Illustrator</p>
               <div class="card__star star">
                 <img src="./images/black-star.svg" alt="Black star" />
                 <img src="./images/black-star.svg" alt="Black star" />
@@ -117,10 +118,7 @@
                 src="./images/After-Effects.svg"
                 alt="After Effects icon"
               />
-              <p class="card__text">
-                Adobe <br />
-                After Effects
-              </p>
+              <p class="card__text">Adobe After&nbspEffects</p>
               <div class="card__star star">
                 <img src="./images/black-star.svg" alt="Black star" />
                 <img src="./images/black-star.svg" alt="Black star" />
@@ -184,8 +182,7 @@
         <div class="container container-contacts">
           <h2 class="contacts__title">Contacts</h2>
           <p class="contacts__text_size_m">
-            Want to know more or just chat? <br />
-            You are welcome!
+            Want to know more or just chat? You are welcome!
           </p>
           <button class="contacts__button">Send message</button>
           <div class="contacts__social-network social-network">
@@ -211,8 +208,7 @@
             />
           </div>
           <p class="contacts__text_size_s">
-            Like me on <br />
-            LinkedIn, Instagram, Behance, Dribble
+            Like me on LinkedIn,&nbspInstagram,&nbspBehance, Dribble
           </p>
         </div>
       </section>

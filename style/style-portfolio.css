@@ -47,9 +47,10 @@
   color: #070707;
 }
 
-@media (min-width: 375px) and (max-width: 968px) {
+@media (max-width: 987px) {
   .container-portfolio {
-    padding: 81px 28px 81px 28px;
+    padding-top: 81px;
+    padding-bottom: 81px;
   }
 
   .example__img {

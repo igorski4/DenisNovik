@@ -21,6 +21,8 @@
   line-height: 22px;
   text-align: center;
   color: #070707;
+  max-width: 290px;
+  margin: 0 auto;
 }
 
 .contacts__button {
@@ -50,6 +52,8 @@
 }
 
 .contacts__text_size_s {
+  max-width: 245px;
+  margin: 0 auto;
   font-family: "Gilroy-Medium";
   font-size: 14px;
   line-height: 17px;
@@ -59,10 +63,23 @@
 
 @media (min-width: 375px) and (max-width: 968px) {
   .container-contacts {
-    padding: 82px 28px 70px 28px;
+    padding-top: 82px;
+    padding-bottom: 90px;
+  }
+
+  .contacts__title {
+    padding-bottom: 27.03px;
+  }
+
+  .contacts__text_size_m {
+    padding-bottom: 39.84px;
   }
 
   .contacts__button {
-    margin-bottom: 60px;
+    margin-bottom: 48px;
+  }
+
+  .contacts__social-network {
+    margin-bottom: 49px;
   }
 }

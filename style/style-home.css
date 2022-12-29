@@ -13,6 +13,7 @@
   font-size: 47.3392px;
   line-height: 59px;
   color: #070707;
+  max-width: 130px;
 }
 
 .card__subtitle {
@@ -20,6 +21,7 @@
   font-size: 18px;
   line-height: 22px;
   color: #070707;
+  max-width: 160px;
 }
 
 .home__img {
@@ -29,14 +31,7 @@
   padding-bottom: 104.06px;
 }
 
-@media (min-width: 375px) and (max-width: 968px) {
-  .container-home {
-    padding-left: 26px;
-    padding-right: 28px;
-  }
-}
-
-@media (min-width: 375px) and (max-width: 500px) {
+@media (max-width: 500px) {
   .home__card {
     flex-direction: column;
     align-items: flex-start;

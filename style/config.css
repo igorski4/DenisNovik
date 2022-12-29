@@ -18,3 +18,9 @@ h2 {
   text-align: center;
   color: #070707;
 }
+
+@media (max-width: 987px) {
+  .container {
+    max-width: 90%;
+  }
+}
