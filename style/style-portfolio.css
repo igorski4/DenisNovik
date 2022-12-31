@@ -25,7 +25,8 @@
   margin-bottom: 42.83px;
 }
 
-.example__text {
+.example__link {
+  display: block;
   margin-bottom: 99.08px;
 
   font-family: "Gilroy-Medium";
@@ -36,15 +37,17 @@
   color: #070707;
 }
 
-.example__text_last {
-  margin-bottom: 0;
+.example__link:hover {
+  opacity: 0.9;
+}
 
-  font-family: "Gilroy-Medium";
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  text-decoration-line: underline;
-  color: #070707;
+.example__link:active {
+  opacity: 0.8;
+  transform: scaleX(1.07) scaleY(1.07);
+}
+
+.portfolio__example > div:last-of-type > .example__link {
+  margin-bottom: 0;
 }
 
 @media (max-width: 987px) {
@@ -57,7 +60,7 @@
     margin-bottom: 33px;
   }
 
-  .example__text {
+  .example__link {
     margin-bottom: 78px;
   }
 }

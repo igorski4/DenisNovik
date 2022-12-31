@@ -35,7 +35,7 @@
 
 @media (max-width: 531px) {
   .about-me__text {
-    width: 316px;
+    width: 90%;
     height: 261px;
   }
 }

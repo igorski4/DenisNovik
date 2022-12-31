@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta description="Denis Novik" />
+    <meta name="description" content="Denis Novik" />
     <link rel="stylesheet" href="./style/reset.css" />
     <link rel="stylesheet" href="./style/style.css" />
     <title>Document</title>
   </head>
+
   <body>
     <header class="header">
       <div class="container container-header">
@@ -17,13 +18,13 @@
           <label class="burger__button" for="burger__menu">
             <span></span>
           </label>
-          <ui class="burger__nav nav">
+          <ul class="burger__nav nav">
             <li><a class="nav__link" href="#home">Home</a></li>
             <li><a class="nav__link" href="#about-me">About me</a></li>
             <li><a class="nav__link" href="#skills">Skills</a></li>
             <li><a class="nav__link" href="#portfolio">Portfolio</a></li>
             <li><a class="nav__link" href="#contacts">Contacts</a></li>
-          </ui>
+          </ul>
         </div>
         <nav class="header__navbar navbar">
           <a class="navbar__link" href="#home">Home</a>
@@ -32,9 +33,9 @@
           <a class="navbar__link" href="#portfolio">Portfolio</a>
           <a class="navbar__link" href="#contacts">Contacts</a>
         </nav>
-        <hr class="header__hr" />
       </div>
     </header>
+
     <main>
       <section class="home" id="home">
         <div class="container container-home">
@@ -57,6 +58,7 @@
           </picture>
         </div>
       </section>
+
       <section class="about-me" id="about-me">
         <div class="container container-about-me">
           <h2 class="about-me__title">About me</h2>
@@ -77,6 +79,7 @@
           </div>
         </div>
       </section>
+
       <section class="skills" id="skills">
         <div class="container container-skills">
           <h2 class="skills__title">Skills</h2>
@@ -145,6 +148,7 @@
           </div>
         </div>
       </section>
+
       <section class="portfolio" id="portfolio">
         <div class="container container-portfolio">
           <h2 class="portfolio__title">Portfolio</h2>
@@ -155,7 +159,14 @@
                 src="./images/Portfolio-1.jpg"
                 alt="The first work from the portfolio"
               />
-              <p class="example__text">Online fashion store - Homepage</p>
+              <a
+                class="example__link"
+                href="https://www.online-fashion.ru"
+                target="_blank"
+                rel="noopener"
+              >
+                Online fashion store - Homepage
+              </a>
             </div>
             <div>
               <img
@@ -163,7 +174,13 @@
                 src="./images/Portfolio-2.jpg"
                 alt="The second work from the portfolio"
               />
-              <p class="example__text">Reebok Store - Concept</p>
+              <a
+                class="example__link"
+                href="https://www.online-fashion.ru"
+                target="_blank"
+                rel="noopener"
+                >Reebok Store - Concept</a
+              >
             </div>
             <div>
               <img
@@ -171,47 +188,61 @@
                 src="./images/Portfolio-3.jpg"
                 alt="The third work from the portfolio"
               />
-              <p class="example__text_last">Braun Landing Page - Concept</p>
+              <a
+                class="example__link"
+                href="https://us.braun.com/en-us/"
+                target="_blank"
+                rel="noopener"
+              >
+                Braun Landing Page - Concept
+              </a>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <section class="contacts" id="contacts">
-        <div class="container container-contacts">
-          <h2 class="contacts__title">Contacts</h2>
-          <p class="contacts__text_size_m">
-            Want to know more or just chat? You are welcome!
-          </p>
-          <button class="contacts__button">Send message</button>
-          <div class="contacts__social-network social-network">
+
+    <footer class="contacts" id="contacts">
+      <div class="container container-contacts">
+        <h2 class="contacts__title">Contacts</h2>
+        <p class="contacts__text_size_m">
+          Want to know more or just chat? You are welcome!
+        </p>
+        <button class="contacts__button">Send message</button>
+        <div class="contacts__social-network social-network">
+          <a class="social-network__link" href="https://www.linkedin.com">
             <img
               class="social-network__img"
               src="./images/LinkedIn.svg"
               alt="LinkedIn"
             />
+          </a>
+          <a class="social-network__link" href="https://www.instagram.com">
             <img
               class="social-network__img"
               src="./images/Instagram.svg"
               alt="Instagram"
             />
+          </a>
+          <a class="social-network__link" href="https://www.behance.net">
             <img
               class="social-network__img"
               src="./images/Behance.svg"
               alt="Behance"
             />
+          </a>
+          <a class="social-network__link" href="https://dribbble.com">
             <img
               class="social-network__img"
               src="./images/Dribble.svg"
               alt="Dribble"
             />
-          </div>
-          <p class="contacts__text_size_s">
-            Like me on LinkedIn,&nbspInstagram,&nbspBehance, Dribble
-          </p>
+          </a>
         </div>
-      </section>
+        <p class="contacts__text_size_s">
+          Like me on LinkedIn,&nbspInstagram,&nbspBehance, Dribble
+        </p>
+      </div>
     </footer>
   </body>
 </html>

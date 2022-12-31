@@ -42,6 +42,15 @@
   border-radius: 21px;
 }
 
+.contacts__button:hover {
+  opacity: 0.9;
+}
+
+.contacts__button:active {
+  opacity: 0.8;
+  transform: scaleX(1.07) scaleY(1.07);
+}
+
 .contacts__social-network {
   display: flex;
   justify-content: space-between;
@@ -59,6 +68,15 @@
   line-height: 17px;
   text-align: center;
   color: #828282;
+}
+
+.social-network__link:hover {
+  opacity: 0.9;
+}
+
+.social-network__link:active {
+  opacity: 0.8;
+  transform: scaleX(1.07) scaleY(1.07);
 }
 
 @media (min-width: 375px) and (max-width: 968px) {

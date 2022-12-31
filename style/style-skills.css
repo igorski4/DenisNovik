@@ -54,11 +54,14 @@
   justify-content: space-between;
 }
 
-@media (min-width: 676px) and (max-width: 987px) {
+@media (max-width: 987px) {
   .container-skills {
     padding-top: 83px;
     padding-bottom: 99px;
   }
+}
+
+@media (min-width: 676px) and (max-width: 987px) {
   .skills__title {
     padding-bottom: 50px;
   }
@@ -74,7 +77,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 676px) {
+@media (max-width: 676px) {
   .skills__soft {
     flex-direction: column;
     gap: 82px;
