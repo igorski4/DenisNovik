@@ -1,11 +1,13 @@
-.container-home {
+.home {
   padding-top: 40px;
+  padding-bottom: 104.06px;
 }
 
 .home__card {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-bottom: 40px;
 }
 
 .card__title {
@@ -28,8 +30,6 @@
 .home__img {
   width: 100%;
   height: auto;
-  padding-top: 40px;
-  padding-bottom: 104.06px;
 }
 
 @media (max-width: 500px) {
@@ -38,10 +38,8 @@
     align-items: flex-start;
     gap: 23px;
   }
-  .home__img {
-    padding-bottom: 83px;
-  }
-  .container-home {
+  .home {
     padding-top: 10px;
+    padding-bottom: 83px;
   }
 }

@@ -1,10 +1,8 @@
 .about-me {
-  background-color: #f6f6f6;
-}
-
-.container-about-me {
   padding-top: 120.25px;
   padding-bottom: 107px;
+
+  background-color: #f6f6f6;
 }
 
 .about-me__title {
@@ -14,9 +12,8 @@
 .about-me__text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 43px;
   width: 485px;
-  height: 218px;
   margin: 0 auto;
 
   font-family: "Gilroy-Medium";
@@ -27,7 +24,7 @@
 }
 
 @media (max-width: 987px) {
-  .container-about-me {
+  .about-me {
     padding-top: 81px;
     padding-bottom: 76px;
   }

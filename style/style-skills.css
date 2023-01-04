@@ -1,14 +1,14 @@
-.container-skills {
+.skills {
   padding-top: 91px;
   padding-bottom: 110.06px;
 }
 
 .skills__title {
-  padding-bottom: 69.1px;
+  margin-bottom: 69.1px;
 }
 
 .skills__subtitle {
-  padding-bottom: 83.49px;
+  margin-bottom: 83.49px;
 
   font-family: "Gilroy-Medium";
   font-size: 18px;
@@ -23,13 +23,12 @@
 }
 
 .soft__card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 166.46px;
 }
 
 .card__img {
+  width: 100%;
+  height: 88.6px;
   margin: 0 auto 23.03px auto;
 }
 
@@ -37,6 +36,7 @@
   margin: 0 auto;
   margin-bottom: 41.41px;
   max-width: 80px;
+  min-height: 34px;
 
   font-family: "Gilroy-Bold";
   font-size: 14px;
@@ -45,17 +45,13 @@
   color: #828282;
 }
 
-.card__text:last-child {
-  margin-bottom: 56.96px;
-}
-
 .card__star {
   display: flex;
   justify-content: space-between;
 }
 
 @media (max-width: 987px) {
-  .container-skills {
+  .skills {
     padding-top: 83px;
     padding-bottom: 99px;
   }
@@ -63,10 +59,10 @@
 
 @media (min-width: 676px) and (max-width: 987px) {
   .skills__title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
   .skills__subtitle {
-    padding-bottom: 71px;
+    margin-bottom: 71px;
   }
   .skills__soft {
     flex-wrap: wrap;

@@ -28,7 +28,8 @@
   </head>
 
   <body>
-    <header class="header">
+    <!-- HEADER -->
+    <header>
       <div class="container container-header">
         <div class="header__burger burger">
           <input class="burger__menu" id="burger__menu" type="checkbox" />
@@ -54,8 +55,9 @@
     </header>
 
     <main>
+      <!-- HOME -->
       <section class="home" id="home">
-        <div class="container container-home">
+        <div class="container">
           <div class="home__card card">
             <h1 class="card__title">Denis Novik</h1>
             <p class="card__subtitle">
@@ -79,29 +81,31 @@
         </div>
       </section>
 
+      <!-- ABOUT ME -->
       <section class="about-me" id="about-me">
-        <div class="container container-about-me">
+        <div class="container">
           <h2 class="about-me__title">About me</h2>
           <div class="about-me__text">
-            <div>
+            <p>
               Hi, I'm Denis – UX/UI designer from Minsk.
               I'm&nbspinterested&nbspin&nbspdesign and everything connected with
               it.
-            </div>
-            <div>
+            </p>
+            <p>
               I'm studying at courses "Web&nbspand&nbspmobile design interfaces"
               in IT-Academy.
-            </div>
-            <div>
+            </p>
+            <p>
               Ready to implement excellent projects
               with&nbspwonderful&nbsppeople.
-            </div>
+            </p>
           </div>
         </div>
       </section>
 
+      <!-- SKILLS -->
       <section class="skills" id="skills">
-        <div class="container container-skills">
+        <div class="container">
           <h2 class="skills__title">Skills</h2>
           <p class="skills__subtitle">I work in such programs as</p>
           <div class="skills__soft soft">
@@ -169,75 +173,77 @@
         </div>
       </section>
 
+      <!-- PORTFOLIO -->
       <section class="portfolio" id="portfolio">
-        <div class="container container-portfolio">
+        <div class="container">
           <h2 class="portfolio__title">Portfolio</h2>
           <div class="portfolio__example example">
-            <div>
-              <img
-                class="example__img"
-                srcset="
-                  ./images/Portfolio-1.jpg    1x,
-                  ./images/Portfolio-1-2x.jpg 2x
-                "
-                alt="The first work from the portfolio"
-              />
-              <a
-                class="example__link"
-                href="https://www.online-fashion.ru"
-                target="_blank"
-                rel="noopener"
-              >
-                Online fashion store - Homepage
-              </a>
-            </div>
-            <div>
-              <img
-                class="example__img"
-                srcset="
-                  ./images/Portfolio-2.jpg    1x,
-                  ./images/Portfolio-2-2x.jpg 2x
-                "
-                alt="The second work from the portfolio"
-              />
-              <a
-                class="example__link"
-                href="https://www.online-fashion.ru"
-                target="_blank"
-                rel="noopener"
-                >Reebok Store - Concept</a
-              >
-            </div>
-            <div>
-              <img
-                class="example__img"
-                srcset="
-                  ./images/Portfolio-3.jpg    1x,
-                  ./images/Portfolio-3-2x.jpg 2x
-                "
-                alt="The third work from the portfolio"
-              />
-              <a
-                class="example__link"
-                href="https://us.braun.com/en-us/"
-                target="_blank"
-                rel="noopener"
-              >
-                Braun Landing Page - Concept
-              </a>
-            </div>
+            <img
+              class="example__img"
+              srcset="
+                ./images/Portfolio-1.jpg    1x,
+                ./images/Portfolio-1-2x.jpg 2x
+              "
+              alt="The first work from the portfolio"
+            />
+            <a
+              class="example__link"
+              href="https://www.online-fashion.ru"
+              target="_blank"
+              rel="noopener"
+            >
+              Online fashion store - Homepage
+            </a>
+          </div>
+          <div class="portfolio__example example">
+            <img
+              class="example__img"
+              srcset="
+                ./images/Portfolio-2.jpg    1x,
+                ./images/Portfolio-2-2x.jpg 2x
+              "
+              alt="The second work from the portfolio"
+            />
+            <a
+              class="example__link"
+              href="https://www.online-fashion.ru"
+              target="_blank"
+              rel="noopener"
+              >Reebok Store - Concept</a
+            >
+          </div>
+          <div class="portfolio__example example">
+            <img
+              class="example__img"
+              srcset="
+                ./images/Portfolio-3.jpg    1x,
+                ./images/Portfolio-3-2x.jpg 2x
+              "
+              alt="The third work from the portfolio"
+            />
+            <a
+              class="example__link"
+              href="https://us.braun.com/en-us/"
+              target="_blank"
+              rel="noopener"
+            >
+              Braun Landing Page - Concept
+            </a>
           </div>
         </div>
       </section>
     </main>
 
+    <!-- CONTACTS -->
     <footer class="contacts" id="contacts">
-      <div class="container container-contacts">
+      <div class="container">
         <h2 class="contacts__title">Contacts</h2>
         <p class="contacts__text_size_m">
           Want to know more or just chat? You are welcome!
         </p>
-        <button class="contacts__button">Send message</button>
+        <button class="contacts__button button">
+          <a class="button__text" href="mailto:123@gmail.com">Send message</a>
+        </button>
         <div class="contacts__social-network social-network">
           <a class="social-network__link" href="https://www.linkedin.com">
             <img
