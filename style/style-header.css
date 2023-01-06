@@ -140,4 +140,7 @@
   .burger__button {
     visibility: visible;
   }
+  .container-header {
+    border-bottom: 0;
+  }
 }
